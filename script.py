@@ -30,7 +30,7 @@ def main():
     cwe_link = f"https://cwe.mitre.org/find/index.html"
     owasp_link = f"https://owasp.org/search/?searchString={owasp_search}"
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     try:
         # Scrap headers from CWE
         driver.get(cwe_link)
